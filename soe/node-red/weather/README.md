@@ -13,7 +13,7 @@ To quickly setup this sample follow these steps:
 [Watson Assistant](https://console.bluemix.net/catalog/services/watson-assistant-formerly-conversation), 
 [Weather Company Data](https://console.bluemix.net/catalog/services/weather-company-data) service and 
 the new [IBM Voice Agent with Watson](https://console.bluemix.net/catalog/services/voice-agent-with-watson) service.
-1. Create a Twilio SIP trunk, assign a phone number to it and point it at the IBM Voice Agent with Watson service.
+1. Create a Nexmo SIP trunk, assign a phone number to it and point it at the IBM Voice Agent with Watson service.
 1. Create a Node-RED server in Bluemix and import the **vgw-weather-node-red-flow.txt** file.
 1. Create the Watson Conversation workspace using the **vgw-conversation-flow.json** file.
 1. Configure the Assistant node and the Weather Insights node to point to your associated Bluemix services.
